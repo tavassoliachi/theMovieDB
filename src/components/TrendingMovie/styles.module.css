@@ -5,6 +5,7 @@
 }
 .image {
   width: 400px;
+  cursor: pointer;
   object-fit: contain;
   margin-right: 100px;
 }
