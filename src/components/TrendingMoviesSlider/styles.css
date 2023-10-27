@@ -1,0 +1,11 @@
+.trendingMovieSwiper {
+  width: 100%;
+}
+.trendingMovieSwiper .swiper-button-next {
+  transform: translateX(-70px);
+  color: white;
+}
+.trendingMovieSwiper .swiper-button-prev {
+  transform: translateX(70px);
+  color: white;
+}

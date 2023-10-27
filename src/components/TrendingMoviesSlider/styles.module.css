@@ -1,0 +1,12 @@
+.container {
+  height: 800px;
+}
+.swiperSlide {
+  width: 100%;
+}
+
+@media (max-width: 1250px) {
+  .container {
+    height: 100vw;
+  }
+}

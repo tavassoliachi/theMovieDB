@@ -1,0 +1,42 @@
+.innerCont {
+  padding: 100px;
+  display: flex;
+  flex-direction: row;
+}
+.posterCont {
+  position: relative;
+  width: max-content;
+}
+.image {
+  max-width: 400px;
+  width: 20vw;
+}
+.texts {
+  display: flex;
+  flex-direction: column;
+}
+.rating {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  background-color: var(--primary-color);
+  padding: 5px 10px;
+  color: white;
+  font-weight: bolder;
+  border-radius: 10px;
+  border: 1px solid white;
+  width: max-content;
+}
+
+@media (max-width: 1000px) {
+  .innerCont {
+    flex-direction: column;
+    text-align: center;
+  }
+  .image {
+    width: 300px;
+  }
+  .posterCont {
+    margin: auto;
+  }
+}

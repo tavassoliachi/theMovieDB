@@ -1,0 +1,39 @@
+.dataWrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  z-index: 2;
+  width: 80%;
+  margin: auto;
+}
+.dataWrapper > div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.dataItem {
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  background-color: white;
+  height: 300px;
+  margin: 4px;
+}
+.dataItem > img {
+  width: 200px;
+  height: 300px;
+  object-fit: fill;
+  border: 1px solid white;
+}
+.heading {
+  color: white;
+}
+@media (max-width: 520px) {
+  .resultWrapper {
+    width: 200px;
+    margin: auto;
+  }
+  .heading {
+    text-align: center;
+  }
+}

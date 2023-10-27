@@ -1,0 +1,31 @@
+.image {
+  width: 200px;
+  height: 300px;
+  object-fit: fill;
+  border: 1px solid white;
+}
+.container {
+  color: white;
+  background-color: var(--primary-color);
+}
+.container > h1 {
+  margin-bottom: 30px;
+}
+.swiperSlide {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+@media (max-width: 850px) {
+  .container > h1 {
+    font-size: max(15px, 5vw);
+  }
+}
+@media (max-width: 1020px) {
+  .container > h1 {
+    text-align: center;
+  }
+}

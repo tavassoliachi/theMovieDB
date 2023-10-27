@@ -1,0 +1,10 @@
+.modalInnerCont {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70vw;
+  height: 37vw;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 4px;
+}

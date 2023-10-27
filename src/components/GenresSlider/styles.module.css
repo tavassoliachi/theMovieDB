@@ -1,0 +1,19 @@
+.innerCont {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-self: center;
+  margin: auto;
+  color: 'white';
+}
+.title {
+  color: white;
+}
+.genre {
+  border: 1px solid white;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  width: max-content;
+  border-radius: 10px;
+}

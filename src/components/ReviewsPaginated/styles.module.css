@@ -1,0 +1,14 @@
+.container {
+  width: 80%;
+  margin: auto;
+}
+.reviewsCont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.title {
+  text-align: center;
+  color: white;
+}
